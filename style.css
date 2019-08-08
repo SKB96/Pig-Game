@@ -8,6 +8,21 @@
   box-sizing: border-box;
 }
 
+.setscore{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #555;
+  font-size: 18px;
+  font-family: 'Lato';
+  top: 520px;
+  padding: 10px;
+  width: 160px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.setscore:focus{outline: none;}
+
 .clearfix::after {
   content: "";
   display: table;
@@ -154,7 +169,6 @@ i {
 .btn-hold {
   top: 467px;
 }
-
 .dice {
   position: absolute;
   left: 50%;
